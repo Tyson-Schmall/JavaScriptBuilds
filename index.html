@@ -1,0 +1,29 @@
+//Below code shows me how to grab and exchange things between JS and HTML. With event listeners,the second argument MUST be a function. 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <div class="dateComponent"></div>
+    <button id="dateBtn">Click for Date</button>
+    <button onclick="renderDate()">Click for Date</button>
+</body>
+
+<script>
+    const dateElement = document.getElementById('dateComponent');
+    const dateBtn = document.getElementById('dateBtn')
+
+    renderDate = () => {
+        dateElement.innerHTML = Date();
+    }
+
+    dateBtn.addEventListener('click', (event) => {
+        dateElement.innerHTML = Date();
+    });
+
+</script>
+</html>

@@ -1,0 +1,32 @@
+.hero-section-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    background-image: linear-gradient(to bottom right, #56422E, #A8713C);
+}
+
+.hero-section-wrapper > .selectable-options > .beginning-options > .selectable-option {
+    font-family: 'Gotu', sans-serif;
+    font-weight: bold;
+}
+
+
+.hero-section-wrapper > .selectable-options h3 {
+    font-family: 'Baloo Chettan 2', cursive;
+    text-decoration: underline;
+}
+
+.hero-section-wrapper > .finalized-list-wrapper > .clicked-options > .selectable option {
+    font-family: 'Gotu', sans-serif;
+    font-weight: bold;
+}
+
+
+.hero-section-wrapper > .finalized-list-wrapper h3 {
+    font-family: 'Baloo Chettan 2', cursive;
+    text-decoration: underline; 
+}
+
+.selectable-option:hover {
+    cursor: pointer;
+}

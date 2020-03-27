@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0px;
+    background-color: black;
+}
+
+.navigation-wrapper img{
+    height: 75px;
+    filter: invert(100%);
+}
+
+.navigation-wrapper > .center-column h2 {
+    font-family: 'Gotu', sans-serif;
+    color: #F3AB4A;
+    text-decoration: underline;
+}

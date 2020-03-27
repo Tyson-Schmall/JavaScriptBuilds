@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    
+</body>
+
+<script>
+    const someObj = {
+        name: 'Tyson'
+    }
+
+    // Standard console statement, simply logs whatever value you call on in the console.
+    console.log("Hi", someObj, "After object");
+
+    const playerNames = [
+        { name: 'Altuve', pos: '2b' },
+        { name: 'Corea', pos: 'ss' },
+        { name: 'Bregman', pos: '3b' },
+    ]
+
+    // Table allows us to work with an array of objects. Specifically, it shows us the index of each key-value pair, and then each key and it's value, in a table. This is show in the console.
+    console.table(playerNames);
+
+    // The more clear your errors are, the more likely people are to use your libraries in open source coding environments. Be explicit.
+    console.error('oops');
+    
+    // Typically this is used to let any developer working on your code/any code know, that they are about to do something that could cause a potential issue. These are usually explicit messages. 
+    console.warn('Something is aobut to go wrong');
+
+</script>
+</html>
